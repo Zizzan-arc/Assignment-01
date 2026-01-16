@@ -112,6 +112,7 @@ background-image: url("./assets/hero-bg.png");
     padding: 0px 120px 120px 120px;
     background-color: #FFFFFF;
     max-width: 1600px;
+    margin: 0 auto;
     
     
 
@@ -195,4 +196,84 @@ background-image: url("./assets/hero-bg.png");
     background-color: #F95555;
 
 }
+
+/* Solution Styling */
+
+#solution{
+
+    padding: 120px 120px 120px 120px;
+   align-items: center;
+   max-width: 1600px;
+    margin: 0 auto;
+    
+}
+.solution-content-parent{
+    display: flex;
+    gap:60px;
+ 
+
+
+}
+.solution-img{
+    border-radius: 12px ;
+    border:none;
+    
+}
+
+.primary-paragraph{
+    padding-top:102px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+      
+
+}
+
+#solution .solution-content-parent .solution-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #001931;
+    margin-bottom: 16px;
+      text-align: left;
+}
+.secondary-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+    
+    
+}
+
+.solution-checkcircle-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.solution-info{
+    display: flex;
+    gap:6px
+
+    
+    
+}
+.circle-paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+
+}
+
+/* Challenger Part */
+
+
+
+
+
 
