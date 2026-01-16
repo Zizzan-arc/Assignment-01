@@ -13,7 +13,7 @@
 
 /* Shared style */
 .btn{
-    padding: 12px 16px;
+    padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background-color: #469165;
    color:   white;
@@ -238,6 +238,10 @@ background-image: url("./assets/hero-bg.png");
     color: #001931;
     margin-bottom: 16px;
       text-align: left;
+      max-width: 580px;
+      margin-left: 0px;
+      
+      
 }
 .secondary-paragraph{
     font-size: 16px;
@@ -245,6 +249,11 @@ background-image: url("./assets/hero-bg.png");
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
+    max-width: 445px;
+    margin-left: 0px ;
+    
+    text-align: left;
+    
     
     
 }
@@ -271,6 +280,76 @@ background-image: url("./assets/hero-bg.png");
 }
 
 /* Challenger Part */
+
+#challenger{
+    padding: 2px 120px 120px 120px;
+  
+  /* max-width: 1600px;
+  margin: 0 auto; */
+}
+.challenger-parent{
+     padding: 80px 40px 80px 40px;
+     border-radius: 12px;
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.challenger-header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    
+   
+}
+.challenger-p1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    max-width: 605px;
+    margin: 0 auto;
+    text-align: center;
+    
+} 
+
+.btn-2{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+     padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #469165;
+   color:   white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+.arrow{
+    align-items: center;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.style-1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    
+} 
+
+
+
 
 
 
