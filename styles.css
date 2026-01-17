@@ -97,31 +97,46 @@ nav{
 
 
 
-.section-content-parent .heading-part-1{
+#hero .hero-content-parent .heading-part-1{
     color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
 
 
 }
-.section-content-parent .heading-part-2{
-    color: rgba(48, 184, 104, 1);
+#hero .hero-content-parent .heading-part-2{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+
+
 }
-.section-content-parent p{
+#hero .hero-content-parent .secondary-p {
     color: #FFFFFF;
     line-height: 24px;
     font-size: 18px;
     text-align: center;
+    font-weight: 400;
+    max-width: 700px;
 }
 
-.section-content-parent .btn-1{
-    display: inline;
+.btn-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
      padding: 12px 16px;
     border-radius: 4px;
     background-color: #469165;
    color:   white;
     border: none;
     cursor: pointer;
+    gap: 10px;
 }
-.section-content-parent .btn-2{
+ .button-2{
    
      padding: 12px 16px;
     border-radius: 4px;
@@ -132,7 +147,11 @@ nav{
    
     
 }
-.section-content-parent .button-parent{
+.img-icon{
+
+   
+}
+ .button-parent{
     display: flex;
     gap:16px;
 }
@@ -233,7 +252,7 @@ nav{
 
     padding: 120px 120px 120px 120px;
    align-items: center;
-   max-width: 1600px;
+   max-width :1600px;
     margin: 0 auto;
     
 }
@@ -314,7 +333,7 @@ nav{
 #challenger{
     padding: 2px 120px 120px 120px;
   
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .challenger-parent{
@@ -382,7 +401,7 @@ nav{
 #footer{
     background-color: #001931;
     padding: 120px 120px 30px 120px ;
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
 
 }
