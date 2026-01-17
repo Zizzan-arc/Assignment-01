@@ -19,6 +19,9 @@
    color:   white;
     border: none;
     cursor: pointer;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 15px;
 }
 
 
@@ -46,53 +49,53 @@ nav{
 /* Hero section */
 #hero{
     
-    background-color: #627382;
-     min-height: 500px;
+    background-image: url(./assets/hero-bg.png);
+    height: 1000px;
      
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
-     align-items: center;
+     background-size: cover;
+     background-position: center;
+    
+     
+     
+}
+
+  #hero .hero-content-parent{
+    padding: 100px 120px 134px 109px; 
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+    
+
      
    
-
-   
-
-   
-}
-#hero .hero-content-parent{
-     display: flex;
-     flex-direction: column;
-   
-     align-items: center;
-     gap:50px
-}
-.paragraph-parent{
+} 
+ .paragraph-parent{
     background-color: white;
     display: flex;
    border-radius: 1000px;
-   justify-content: center;
    align-items: center;
    padding: 8px 12px;
    gap: 6px;
 
-}
-#hero .hero-content-parent  .primary-round{
+} 
+ #hero .hero-content-parent  .primary-round{
     width: 18px;
     height: 18px;
     background-color: #469165;
     border-radius: 15px;
     
    
-}
-#hero .hero-content-parent  .primary-p{
+} 
+ #hero .hero-content-parent  .primary-p{
    align-items: center;
    font-size: 16px;
    font-weight: 500;
    line-height: 19px;
    color: #469165;
     
-}
+} 
 
 
 
@@ -105,8 +108,8 @@ nav{
     text-align: center;
 
 
-}
-#hero .hero-content-parent .heading-part-2{
+} 
+ #hero .hero-content-parent .heading-part-2{
     color: #30B868;
     font-size: 72px;
     font-weight: 700;
@@ -114,17 +117,57 @@ nav{
     text-align: center;
 
 
-}
-#hero .hero-content-parent .secondary-p {
+} 
+ #hero .hero-content-parent .secondary-p {
     color: #FFFFFF;
     line-height: 24px;
     font-size: 18px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 250;
+    font-style: normal;
     max-width: 700px;
+    
+} 
+
+  .button-parent{
+    display: flex;
+    gap:16px;
+    align-items: center;
+} 
+ .button-secondary{
+    padding: 12px 16px 12px 16px;
+    margin: 1px 1px 1px 1px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background-color: transparent;
+    
+   
+    
+} 
+.for-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:8px;
+
+}
+.button-font{
+   
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 15px;
+    color: white;
+}
+.button-secondary i{
+    
+ color: #FFFFFF;
+   background: transparent;
+    border: none;
+   
+
 }
 
-.btn-1{
+ .btn-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,30 +178,22 @@ nav{
     border: none;
     cursor: pointer;
     gap: 10px;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 15px;
+    max-width: 260px;
 }
- .button-2{
-   
-     padding: 12px 16px;
-    border-radius: 4px;
-    background-color: transparent;
-    color: #FFFFFF;
-    border: 1px solid rgba(255, 255, 255, 1);
-    cursor: pointer;
-   
-    
-}
-.img-icon{
+  
 
-   
-}
- .button-parent{
-    display: flex;
-    gap:16px;
-}
+
+
+
+
+
 
 /* Card section */
 #card{
-    padding: 0px 120px 120px 120px;
+    padding: 0px 120px 0px 120px;
     background-color: #FFFFFF;
     max-width: 1600px;
     margin: 0 auto;
